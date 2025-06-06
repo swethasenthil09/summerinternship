@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("tools.png") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.service-menu {
+  background-color: #2d572c;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.service-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service-menu li {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.service-menu li:hover {
+  transform: scale(1.1);
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-container {
+  background: rgba(255, 255, 255, 0.7); 
+  padding: 30px 40px;
+  border-radius: 15px;
+  width: 500px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.8); 
+}
+
+.image-box img {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2d572c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e3b18;
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+  max-width: 450px;
+  text-align: left;
+}
+
+.contact-info h3 {
+  color: #2d572c;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
